@@ -40,5 +40,36 @@ todos.forEach(function(todo) {
 //   else {
 //     console.log('2');
 //   }
-  
-  
+
+// window.alert('1');
+// var who = prompt('당신은 누구세요?');
+// console.log(who);
+
+// var isDelete = confirm('정말 삭제하시겠습니까?');
+// console.log(isDelete); 
+
+// function sum(a, b){
+//   return a + b;
+// }
+// console.log(sum(1, 2));
+
+// var car = {
+//   year: '2014',
+//   starting: function() {
+//     console.log('starting..');
+//   },
+// };
+
+// car.starting();
+
+// (function() {
+//   var a = 'a';
+//   console.log(a);
+// })();
+
+function sum(x, y) {
+  if (!y) y = 1;
+  console.log(x + y);
+}
+consloe.log(sum(3));
+consloe.log(sum(3, 3));
