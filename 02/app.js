@@ -1,16 +1,16 @@
-console.log('app');
+// console.log('app');
 
 
-// Create
-var todos = ['운동'];
-var todo = '게임';
-todos.push(todo);
-console.log(todos);
+// // Create
+// var todos = ['운동'];
+// var todo = '게임';
+// todos.push(todo);
+// console.log(todos);
 
-// Read
-todos.forEach(function(todo) {
-    console.log(todo);
-  });
+// // Read
+// todos.forEach(function(todo) {
+//     console.log(todo);
+//   });
 
 // Update
 // var todos = ['운동', '게임'];
@@ -67,9 +67,11 @@ todos.forEach(function(todo) {
 //   console.log(a);
 // })();
 
-function sum(x, y) {
-  if (!y) y = 1;
-  console.log(x + y);
-}
-consloe.log(sum(3));
-consloe.log(sum(3, 3));
+// function sum(x, y) {
+//   if (!y) y = 1;
+//   console.log(x + y);
+// }
+// consloe.log(sum(3));
+// consloe.log(sum(3, 3));
+
+
